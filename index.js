@@ -545,7 +545,7 @@ window.addEventListener('DOMContentLoaded', () => {
         main()
     } else {
         // mobile fallback
-        document.body.innerHTML = `<p>Apologies, the gallery is not yet optimized for mobile devices. <br />Please visit on a computer browser.</p><h1>What Does the Gallery Look Like?</h1><video width="320" height="240" autoplay>
+        document.body.innerHTML = `<p>Apologies, the gallery is not yet optimized for mobile devices. <br />Please visit on a computer browser.</p><h1>What Does the Gallery Look Like?</h1><video width="100%" height="auto" controls>
         <source src="assets/galleryexample.mov" type="video/mp4">
       Your browser does not support the video tag.
       </video>`
